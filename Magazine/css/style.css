@@ -1,0 +1,65 @@
+﻿@import url(reset.css);
+
+body {
+    font: 13px/1.4 Arial, Verdana, Tahoma, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    min-width: 960px;
+    max-width: 1200px;
+margin: 0 auto;
+}
+
+#logo {
+    width: 241px;
+    height: 46px;
+    float: left;
+    margin-top: 44px;
+    margin-bottom: 42px;
+    margin-left: 10px;
+}
+
+#banner {
+    width: 468px;
+    height: 60px;
+    float: right;
+    margin-top: 34px;
+    margin-bottom: 37px;
+    margin-right: 10px;
+}
+
+#top-menu {
+    height: 49px;
+    background: url("../images/top-menu-bg.png") repeat-x;
+    min-width: 960px;
+}
+
+#inner-menu {
+    min-width: 960px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#inner-menu ul li {
+    float: left;
+    text-transform: uppercase;
+}
+
+#inner-menu a {
+    color: #ebebeb;
+    font-size: 12px;
+    padding: 16px 15px;
+    display: block;
+}
+
+#inner-menu a:hover {
+    background: url("../images/menu-hover.png") repeat-x;
+}
