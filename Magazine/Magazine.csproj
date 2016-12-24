@@ -94,6 +94,28 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\banner_1.jpg" />
+    <Content Include="images\banner_2.jpg" />
+    <Content Include="images\banner_3.jpg" />
+    <Content Include="images\banner_4.jpg" />
+    <Content Include="images\dashed_bg.png" />
+    <Content Include="images\footer_bottom_bg.png" />
+    <Content Include="images\footer_h3_bg.png" />
+    <Content Include="images\footer_middle_bg.png" />
+    <Content Include="images\footer_top_bg.png" />
+    <Content Include="images\image_1.jpg" />
+    <Content Include="images\image_2.jpg" />
+    <Content Include="images\image_3.jpg" />
+    <Content Include="images\image_4.jpg" />
+    <Content Include="images\image_5.jpg" />
+    <Content Include="images\input_bg.png" />
+    <Content Include="images\logo_footer.png" />
+    <Content Include="images\main_bg.jpg" />
+    <Content Include="images\menu_hover.png" />
+    <Content Include="images\search_btn.png" />
+    <Content Include="images\sidebar_h3_bg.png" />
+    <Content Include="images\subscribe_btn.png" />
+    <Content Include="images\top_menu_bg.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
