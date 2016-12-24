@@ -230,3 +230,8 @@ margin: 0 auto;
     border-bottom: none;
     padding-bottom: 9px;
 }
+
+#pagination .next {
+    padding-top: 7px;
+    padding-bottom: 8px;
+}
