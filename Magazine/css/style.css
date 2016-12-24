@@ -3,10 +3,15 @@
 body {
     font: 13px/1.4 Arial, Verdana, Tahoma, sans-serif;
     background: url("../images/main_bg.jpg");
+    color: #5e5e5e;
 }
 
 .clear {
     clear: both;
+}
+
+p {
+    margin: 7px 0 13px;
 }
 
 a {
@@ -20,6 +25,8 @@ a:hover {
 
 h2 {
     font-size: 18px;
+    line-height: 1.1;
+    margin-bottom: 6px;
 }
 
 #header {
@@ -84,10 +91,23 @@ margin: 0 auto;
 
 #content {
     margin-right: 300px;
+    padding: 15px 38px 50px 10px;
+}
+
+.post {
+    border-bottom: 1px dashed #e5e5e5;
+    overflow: hidden;
+    margin-top: 15px;
 }
 
 .thumbnail {
     float: left;
+    margin-bottom: 12px;
+}
+
+.post-content {
+    margin-left: 180px;
+
 }
 
 .thumbnail img {
@@ -97,4 +117,5 @@ margin: 0 auto;
 .post-categories, .post-published {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #aaa;
+    margin: 0 0 3px 0;
 }
