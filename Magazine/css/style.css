@@ -171,7 +171,7 @@ margin: 0 auto;
 
 #content {
     margin-right: 300px;
-    padding: 15px 38px 50px 10px;
+    padding: 15px 38px 0 10px;
 }
 
 .post {
@@ -198,4 +198,34 @@ margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #aaa;
     margin: 0 0 3px 0;
+}
+
+#pagination {    
+    margin: 34px 0;
+}
+
+#pagination ul {
+    overflow: hidden;
+}
+
+#pagination ul li {
+    float: left;
+    margin-right: 2px;
+}
+
+#pagination ul li a {
+    display: block;
+    padding: 9px 14px;
+    border-bottom: 3px solid #ccc;
+}
+
+#pagination ul li a:hover {
+    text-decoration: none;
+    background: #e7e7e7;
+}
+
+#pagination .current, #pagination .current:hover {
+    background: #333;
+    color: #fff;
+    border-bottom: 3px solid #333;
 }
