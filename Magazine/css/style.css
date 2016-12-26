@@ -30,12 +30,6 @@ h2 {
     margin-bottom: 6px;
 }
 
-#header {
-    min-width: 960px;
-    max-width: 1200px;
-margin: 0 auto;
-}
-
 #logo {
     width: 241px;
     height: 46px;
@@ -60,7 +54,7 @@ margin: 0 auto;
     min-width: 960px;
 }
 
-#inner-menu, #wrapper {
+#header, #inner-menu, #wrapper, #footer-middle-content{
     min-width: 960px;
     max-width: 1200px;
     margin: 0 auto;
@@ -234,4 +228,32 @@ margin: 0 auto;
 #pagination .next {
     padding-top: 7px;
     padding-bottom: 8px;
+}
+
+#footer {
+    min-width: 960px;
+}
+
+#footer-top {
+    height: 19px;
+    background: url("../images/footer_top_bg.png") repeat-x;
+}
+
+#footer-middle {
+    background: url("../images/footer_middle_bg.png");
+}
+
+#footer-middle-content {
+    overflow: hidden;
+}
+
+.footer-box {
+    padding-top: 30px;
+    width: 30%;
+    padding-right: 5%;
+    float: left;
+}
+
+#footer-box-right {
+    padding-right: 0;
 }
