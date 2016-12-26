@@ -54,7 +54,7 @@ h2 {
     min-width: 960px;
 }
 
-#header, #inner-menu, #wrapper, #footer-middle-content{
+#header, #inner-menu, #wrapper, #footer-middle-content, #footer-bottom-content {
     min-width: 960px;
     max-width: 1200px;
     margin: 0 auto;
@@ -232,6 +232,7 @@ h2 {
 
 #footer {
     min-width: 960px;
+    color: #e0e0e0;
 }
 
 #footer-top {
@@ -245,10 +246,11 @@ h2 {
 
 #footer-middle-content {
     overflow: hidden;
+    padding-bottom: 60px;
 }
 
 .footer-box {
-    padding-top: 30px;
+    padding-top: 55px;
     width: 30%;
     padding-right: 5%;
     float: left;
@@ -256,4 +258,58 @@ h2 {
 
 #footer-box-right {
     padding-right: 0;
+}
+
+#magazine {
+    background: url("../images/logo_footer.png") no-repeat 10px 0;
+    padding: 37px 0 0 10px;
+}
+
+#magazine p {
+    margin: 16px 0;
+}
+
+#footer h3 {
+    background: url("../images/footer_h3_bg.png") repeat-x 0 4px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    width: 220px;
+    margin-bottom: 10px;
+}
+
+#footer h3 span {
+    background: url("../images/footer_middle_bg.png");
+    padding-right: 13px;
+}
+
+#recent-post ul li, #archives ul li {
+    padding: 10px 0;
+    background: url("../images/dashed_bg.png") repeat-x left bottom;
+}
+
+#recent-post ul li a, #archives ul li a {
+    color: #e0e0e0;
+}
+
+#archives {
+    padding-right: 10px;
+}
+
+#footer-bottom {
+    background: url("../images/footer_bottom_bg.png") repeat-x;
+}
+
+#footer-bottom p {
+    margin: 0;
+    padding: 26px 10px;
+}
+
+#footer-bottom-content {
+    overflow: hidden;
+}
+
+#footer-bottom a {
+    color: #8f8f8f;
 }
